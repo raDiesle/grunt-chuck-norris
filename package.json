@@ -1,0 +1,32 @@
+{
+    "name": "grunt-chuck-norris",
+    "description": "Grunt task to show chuck norris jokes. Migration of the famous jenkins hudson build ci plugin",
+    "version": "0.0.1",
+    "homepage": "https://github.com/raDiesle/grunt-chuck-norris",
+    "author": {
+        "name": "David Amend",
+        "email": "david.amend@it-amend.de",
+        "url": "www.it-amend.de"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/raDiesle/grunt-chuck-norris"
+    },
+    "bugs": {
+        "url": "https://github.com/raDiesle/grunt-chuck-norris/issues"
+    },
+    "main": "grunt.js",
+    "engines": {
+        "node": "*"
+    },
+    "devDependencies": {
+        "grunt": "~0.4"
+    },
+    "keywords": [
+        "gruntplugin",
+        "chuck norris",
+        "chuck",
+        "norris",
+        "fun"
+    ]
+}
