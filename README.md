@@ -8,6 +8,8 @@ A migration of the jenkins / hudson chuck norris plugin to the grunt build ci pr
 How to use:
 
 1. Add to your package.json:
+
+
   "devDependencies": {
 ...
     "grunt-chuck-norris": "~0.0.1"
@@ -15,9 +17,15 @@ How to use:
 	},
 
 2. In your Gruntfile.js add
+
+ 
    grunt.loadNpmTasks('grunt-chuck-norris');
+
+
 3.Call grunt chuckNorris from Commandline or  
   extend your existing tasks like this:
+  
+  
  // Default task(s).
   grunt.registerTask('default', ['uglify']);
 
@@ -30,13 +38,21 @@ TODO: Add some fancy Text-Styling
 
 
 Extend in combination with existing plugins: 
+
 By using:
+
 https://github.com/dylang/grunt-cat
+
 http://picascii.com/
+
+
 And This:
+
 https://github.com/dylang/grunt-attention
 By 
 e.g.
+
+
 
 
 
